@@ -52,6 +52,17 @@ body {
   transition: all 1s ease-in-out;
   filter: saturate(1.125) brightness(1.0125);
 }
+.text-container {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 30px;
+  color: #929292;
+}
 
 .card:hover .front {
   transform: perspective(800px) rotateY(-170deg);
